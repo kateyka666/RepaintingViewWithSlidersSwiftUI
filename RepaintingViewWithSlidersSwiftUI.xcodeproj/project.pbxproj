@@ -11,6 +11,13 @@
 		7949ECAF26B3390100685B76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECAE26B3390100685B76 /* ContentView.swift */; };
 		7949ECB126B3390200685B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7949ECB026B3390200685B76 /* Assets.xcassets */; };
 		7949ECB426B3390200685B76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7949ECB326B3390200685B76 /* Preview Assets.xcassets */; };
+		7949ECBC26B3392A00685B76 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECBB26B3392A00685B76 /* ColorSlider.swift */; };
+		7949ECBE26B3396600685B76 /* ColorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECBD26B3396600685B76 /* ColorTextField.swift */; };
+		7949ECC026B3398C00685B76 /* ColorCountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECBF26B3398C00685B76 /* ColorCountLabel.swift */; };
+		7949ECC226B339B700685B76 /* RepaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECC126B339B700685B76 /* RepaintingView.swift */; };
+		7949ECC426B578C200685B76 /* ExtensionUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECC326B578C200685B76 /* ExtensionUIApplication.swift */; };
+		7949ECCA26B5E45E00685B76 /* FrameSizeAndGradientModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECC926B5E45E00685B76 /* FrameSizeAndGradientModifier.swift */; };
+		7949ECCC26B5E54C00685B76 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949ECCB26B5E54C00685B76 /* ExtensionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		7949ECB026B3390200685B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7949ECB326B3390200685B76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7949ECB526B3390200685B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7949ECBB26B3392A00685B76 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		7949ECBD26B3396600685B76 /* ColorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTextField.swift; sourceTree = "<group>"; };
+		7949ECBF26B3398C00685B76 /* ColorCountLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCountLabel.swift; sourceTree = "<group>"; };
+		7949ECC126B339B700685B76 /* RepaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepaintingView.swift; sourceTree = "<group>"; };
+		7949ECC326B578C200685B76 /* ExtensionUIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIApplication.swift; sourceTree = "<group>"; };
+		7949ECC926B5E45E00685B76 /* FrameSizeAndGradientModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSizeAndGradientModifier.swift; sourceTree = "<group>"; };
+		7949ECCB26B5E54C00685B76 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +66,11 @@
 		7949ECAB26B3390100685B76 /* RepaintingViewWithSlidersSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				7949ECAC26B3390100685B76 /* RepaintingViewWithSlidersSwiftUIApp.swift */,
-				7949ECAE26B3390100685B76 /* ContentView.swift */,
-				7949ECB026B3390200685B76 /* Assets.xcassets */,
-				7949ECB526B3390200685B76 /* Info.plist */,
-				7949ECB226B3390200685B76 /* Preview Content */,
+				7949ECD126B6C19600685B76 /* Views */,
+				7949ECD326B6C1AB00685B76 /* Modifiers */,
+				7949ECD226B6C19B00685B76 /* Extensions */,
+				7949ECD026B6C18300685B76 /* Resources */,
+				7949ECCF26B6C17800685B76 /* Supporting Files */,
 			);
 			path = RepaintingViewWithSlidersSwiftUI;
 			sourceTree = "<group>";
@@ -67,6 +81,53 @@
 				7949ECB326B3390200685B76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7949ECCF26B6C17800685B76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7949ECAC26B3390100685B76 /* RepaintingViewWithSlidersSwiftUIApp.swift */,
+				7949ECB526B3390200685B76 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7949ECD026B6C18300685B76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7949ECB226B3390200685B76 /* Preview Content */,
+				7949ECB026B3390200685B76 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7949ECD126B6C19600685B76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7949ECAE26B3390100685B76 /* ContentView.swift */,
+				7949ECC126B339B700685B76 /* RepaintingView.swift */,
+				7949ECBF26B3398C00685B76 /* ColorCountLabel.swift */,
+				7949ECBB26B3392A00685B76 /* ColorSlider.swift */,
+				7949ECBD26B3396600685B76 /* ColorTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7949ECD226B6C19B00685B76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7949ECC326B578C200685B76 /* ExtensionUIApplication.swift */,
+				7949ECCB26B5E54C00685B76 /* ExtensionView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7949ECD326B6C1AB00685B76 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				7949ECC926B5E45E00685B76 /* FrameSizeAndGradientModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7949ECC026B3398C00685B76 /* ColorCountLabel.swift in Sources */,
+				7949ECCC26B5E54C00685B76 /* ExtensionView.swift in Sources */,
 				7949ECAF26B3390100685B76 /* ContentView.swift in Sources */,
+				7949ECBC26B3392A00685B76 /* ColorSlider.swift in Sources */,
+				7949ECC426B578C200685B76 /* ExtensionUIApplication.swift in Sources */,
 				7949ECAD26B3390100685B76 /* RepaintingViewWithSlidersSwiftUIApp.swift in Sources */,
+				7949ECCA26B5E45E00685B76 /* FrameSizeAndGradientModifier.swift in Sources */,
+				7949ECBE26B3396600685B76 /* ColorTextField.swift in Sources */,
+				7949ECC226B339B700685B76 /* RepaintingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +336,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RepaintingViewWithSlidersSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RepaintingViewWithSlidersSwiftUI/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 96UHXBP52X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RepaintingViewWithSlidersSwiftUI/Info.plist;
+				INFOPLIST_FILE = "RepaintingViewWithSlidersSwiftUI/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +358,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RepaintingViewWithSlidersSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RepaintingViewWithSlidersSwiftUI/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 96UHXBP52X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RepaintingViewWithSlidersSwiftUI/Info.plist;
+				INFOPLIST_FILE = "RepaintingViewWithSlidersSwiftUI/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
