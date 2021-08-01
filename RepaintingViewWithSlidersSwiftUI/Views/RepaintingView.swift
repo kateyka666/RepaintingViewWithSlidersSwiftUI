@@ -20,7 +20,7 @@ struct RepaintingView: View {
         Rectangle()
             .blur(radius: 50)
             .foregroundColor(Color(red: red/255, green: green/255, blue: blue/255))
-            .overlay(Rectangle().stroke(linearGradient, style: StrokeStyle(lineWidth: 10, lineCap: .round, dash: [10, 10])))
+            .overlay(Rectangle().strokeBorder(linearGradient, style: StrokeStyle(lineWidth: 10, lineCap: .round, dash: [10, 10])))
             .cornerRadius(30)
     }
 }
