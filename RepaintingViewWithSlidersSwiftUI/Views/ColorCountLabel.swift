@@ -14,6 +14,7 @@ struct ColorCountLabel: View {
     var body: some View {
         Text(String(lround(textForLabel)))
             .font(.subheadline)
+            .rotationEffect(.degrees(20))
     }
 }
 
