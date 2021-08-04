@@ -10,7 +10,7 @@ import SwiftUI
 struct ColorTextField: View {
     
     @Binding var bindingText: Double
-    @State var isPresentedAlert: Bool = false
+    @State private var isPresentedAlert: Bool = false
     
     
     var body: some View {

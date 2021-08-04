@@ -9,9 +9,9 @@ import SwiftUI
 
 struct RepaintingView: View {
     
-    @Binding var red: Double
-    @Binding var green: Double
-    @Binding var blue: Double
+    var red: Double
+    var green: Double
+    var blue: Double
     
     var body: some View {
         let colors = Gradient(colors: [ .red, .green].shuffled())
@@ -27,6 +27,6 @@ struct RepaintingView: View {
 
 struct RepaintingView_Previews: PreviewProvider {
     static var previews: some View {
-        RepaintingView(red: .constant(50), green: .constant(170), blue: .constant(50))
+        RepaintingView(red: 50, green: 170, blue: 50)
     }
 }

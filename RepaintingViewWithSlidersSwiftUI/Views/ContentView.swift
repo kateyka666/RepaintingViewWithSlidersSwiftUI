@@ -18,7 +18,7 @@ struct ContentView: View {
         
         VStack(spacing: 30){
             
-            RepaintingView(red: $redCount, green: $blueCount, blue: $greenCount)
+            RepaintingView(red: redCount, green: blueCount, blue: greenCount)
             Divider()
             HStack{
                 VStack(spacing: 22){
